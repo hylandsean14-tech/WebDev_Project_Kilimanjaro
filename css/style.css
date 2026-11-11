@@ -1,26 +1,33 @@
-@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
-
-h1{
-    color: navy;
-	text-align: center
-}
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');	
 
 .normText{
     background-color:powderblue;
+	height: 35px;
+	width: 50vw;
 }
 
-li{
-	position: center;
-	width: 50vw;
-	height: 40px;
-	padding: 5px;
-	margin: 5px;
-	border: 5px double grey;
+h1{
+    font-size: 40px;
+	color: lightblue;
+	text-align: center;
+	background-color: #191D2A;
+	width: 100vw;
+	padding: 10px;
+}
+
+nav{
+	text-align: center;
+}
+
+a{
+	font-size: 25px;
 }
 
 h2{
-	color: powderblue;
+	font-size: 30px;
+	color: #DEF8FF;
 	background-color:navy;
+	width: 50vw;
 }
 
 body{
@@ -29,9 +36,15 @@ body{
 	background-repeat: no-repeat;
 	background-position: center;
 	background-attachment: fixed;
-	background-size: 100vw 100vh;
+	background-size: 100vw 100vh;	
 }
 
-nav{
-	text-align: left;
+li{
+	position: center;
+	width: 50vw;
+	height: 35px;
+	padding: 5px;
+	margin: 5px;
+	border: 5px double grey;
 }
+
